@@ -1,0 +1,34 @@
+{
+    "basic": {
+        "filename": "samples.jpg",
+        "extension": ".jpg",
+        "format": "JPEG",
+        "mode": "RGB",
+        "width": 736,
+        "height": 414,
+        "filesize_kb": 45.72
+    },
+    "file": {
+        "File Name": "samples.jpg",
+        "Absolute Path": "C:\\Users\\Mukul\\ImageEncryptionToolPro\\samples\\samples.jpg",
+        "Extension": ".jpg",
+        "MIME Type": "image/jpeg",
+        "File Size (KB)": 45.72,
+        "Created": "2026-07-11T20:49:16.147521",
+        "Modified": "2026-07-11T16:24:52.172017"
+    },
+    "hashes": {
+        "md5": "77c5d0624d3eb998fa22c91ed4b0bd35",
+        "sha256": "2a9883868d61897978130ae68074435e28a859d0c191d3ade7e8685ee1bff130",
+        "sha512": "9d50df0ad6e18d1d38d628be3185fadb05d02a5520d33cb1bf1297bdd628ac2b50829a60db2249f02593a9c1f44e8ca9e8a183b03cc611b5b1012a230bc2c424"
+    },
+    "entropy": 7.9816,
+    "risk": {
+        "Risk Score": 0,
+        "Risk Level": "Low",
+        "Reasons": [
+            "No privacy risks detected"
+        ]
+    },
+    "exif": {}
+}

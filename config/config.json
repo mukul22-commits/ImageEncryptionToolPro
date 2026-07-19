@@ -1,0 +1,12 @@
+{
+    "app_name": "Image Encryption Tool Pro",
+    "version": "3.0",
+    "theme": "dark",
+    "algorithm": "AES-256-GCM",
+    "database": "database/history.db",
+    "output_directory": "output",
+    "reports_directory": "reports",
+    "logs_directory": "logs",
+    "default_iterations": 200000,
+    "default_key_length": 32
+}
