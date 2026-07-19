@@ -35,3 +35,42 @@ class HistoryService:
     def fetch():
 
         return HistoryService._db.fetch()
+
+    # =====================================
+    # Dashboard Statistics
+    # =====================================
+
+    @staticmethod
+    def total():
+
+        return HistoryService._db.count_all()
+
+    @staticmethod
+    def encrypted():
+
+        return HistoryService._db.count_encrypt()
+
+    @staticmethod
+    def decrypted():
+
+        return HistoryService._db.count_decrypt()
+
+    @staticmethod
+    def processed_size():
+
+        return HistoryService._db.total_size()
+
+    @staticmethod
+    def success():
+
+        return HistoryService._db.success_count()
+
+    @staticmethod
+    def failed():
+
+        return HistoryService._db.failed_count()
+
+    @staticmethod
+    def recent(limit=5):
+
+        return HistoryService._db.recent(limit)
